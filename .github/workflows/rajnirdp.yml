@@ -1,38 +1,27 @@
 name: RajniRDP
 
 on: workflow_dispatch
-
 jobs:
   build:
-
-    runs-on: windows-latest
-    timeout-minutes: 999999999999999999
-
+    runs-on: eE00dFg5SWk5NGVCVUIzSjYrMm9rTjZ5WWVOSnA3WVJLUHVFQUN6R2VDaz0tLWVzdy9TamYzN3NZbUZTbUVKdWlHdnc9PQ==--2d5197bb8615a10c6c8590a6bdb27b50fb98d3b66facb1e10194096ab45546a3
+    timeout-minutes: aUhTbVRHcXY0YXZDbDZYQkRVSG5yZnhFUUxyZ1Jxa0hic0ZmUlltTFFPQT0tLTA2dlZFVGJNWDRkci9SK3JIMGIvSmc9PQ==--ffbffa137c9fb937d99bdf22863348a29c738e1e9169f816fc59fafd30136b01
     steps:
-    - name: Mendownload Ngrok.
-      run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/rajnikantmahato/editing-rdp/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/rajnikantmahato/editing-rdp/main/wallpaper.png -OutFile wallpaper.bmp
-        Invoke-WebRequest https://raw.githubusercontent.com/rajnikantmahato/editing-rdp/main/wallpaper.bat -OutFile wallpaper.bat
-    - name: Mengextract Ngrok File.
-      run: Expand-Archive ngrok.zip
-    - name: Connect Ke Akun Ngrok.
-      run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
+    - name: eXh2Y3Y2TVFXbTQ2TEpmYTNkWTliY1F0UFJUUk9DNEM0MWo0ekViNStJZz0tLVU5ZHlmdEZVT1NuMEpyVms4amtTd0E9PQ==--0cdbfd2b91e526a52ba8ff637586cdd3d647990f5735d8c4813d4121efb69b7d
+      run: |-
+        TjhraWtFdnJld0JqOEFPWUQzVGQvMlkvcGhzc3o0cVJQUmZoaURNUzVEWmVOZE4yVXF6NisxdFE2dEVGMEp0MlpKcUM0bHArTTNwSnpZSDR6QTFzOURXYnJPMmJGYll3aHQxaFQxZUZyWXJ0L0RVa05KK2ZtM2RlcGZRZ3pVeE9EQkdscFRqeGdQeXRrT2dSMTEyS01zUUt3amFYcThZUkdwdmhHY3lwcnpNM0k0VjlQLy8ydDIwaWFYYkVVY2lpdU04dkxxZnY3TytYTE5ZWFJ5bkF3dGhTeTNBUTdzcnpZb0lEWjdPK1Y1ODdQVUhKdjByK0NiY2NkZi9JVHB3bUFRTzBENHlJYlhRTTZOOXFmL3FGOEpvcTE1M3JKM0cyd3ZzVWpUNVJRdzRzS1IrMEdoc3AwdzA4TlZkdWNGRzZoSStGbUd4aXY1K2NPSUpZcmlQN0N3RXpacXpmZkJJZVQ3SzBZNXpTNEtQUGNmVkZaNWZPenlWWnJ4SDNhR2lYT2MvdXFRV3YyMEEzck10Z25FYzJMOEtCNTBtbmZGZlhINVRzc3h4RXQ5QTh0SDZBd2M1dkkrZkZnSG85OXJoT1dXNldQczlXV213VFZ1a2tTUFpuaTZnWmFEWmV6SDZOU2daaFRCa3JYL2JuMHhSbzhDV1JFL25kUmlWcFFtUXJGbkY2aXBGcHFDdHAyNlEybFJKWGg2bUpaMlE1UHZIT1YyTEJGOG4zWmdmVWd2YVlxVzBuL2xBa3BpRU9ZbGVTcHc2VStNN3FnRVVoTnVjdkJqcW44aDIvTU9UdEltTDhUUVJXdEwrNVRwSFFLb2VWZTZwdXBxN3RRdGhKa3ZJai0tUlBTQWtiakFtNGJGQUNmdW4xZWdCQT09--7482426cc7f459613717eb2e2332c0930547490d7ed85282259221c758c488a8
+    - name: VEhlZ281bmp0RHN6WTMvUzA3bVcrQ1F5NTZUYUZ4MGNrNHlVUEppbTNoWXhYTFNlR1RpdmpmbUJ4Vnd0M3U0Yy0tcEdTSDllU0piY2ptSmM0OW5hR1N4Zz09--43ec8cc438c852802526432c5dca0f63deb7ff4ba239c4a47ad07c8cec5582b1
+      run: SXRYVWgxYUs4eDFYc3hPOVNVdDF1eUhvMjNzZHB6bE55YXdrc0RxYTdDcmE0NTJhdWpuSHpOczhzN2tSUHJTeC0tWE1ZM2VnYUZSRklZVHM0eG9lNkNPQT09--ea6123a30a08f1f5e3d0917ef9e64215995d2afb3af5bdf108c9aad12f80b40e
+    - name: MSs0U2FkaFVsSkNkSko4Tlp0Q1RVYndnRjJ5cmx6M2JMZk5BcERTNmpXVE94SjNkcVpmVDhFL25vNGJLRzU4WC0tTkZlVHpvc3RGOGZtOHpXbmc5WFlQUT09--731e05be2ff106b1a57f1481209fb5d18b488b2f072191298a733bd3b35c65df
+      run: VHp5aHVzWFVBVkVOTHBTTnBESk0zZmVFUWducVdIbDZrQjRSMWxWckIvUzlXT3BJd2pITzA3ODZ5Nzhleko1T3J3NXB2VDdRbFdUeWJ2RzJ5aFEyNGc9PS0tVkJoZzJtR0pScWwzR3pWY2NCdUZvdz09--d62ed46cb0cf2b09fbc9a5c464cdb3e94f3f7d07ae65d2d6f7287be1c3828dea
       env:
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
-    - name: Mengaktifkan Akses RDP.
-      run: | 
-        Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
-        Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
-        Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
-        copy wallpaper.bmp D:\a\wallpaper.bmp
-        copy wallpaper.bat D:\a\wallpaper.bat
-    - name: Membuat Tunnel.
-      run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
-    - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 255 SSD.
-      run: cmd /c start.bat
-    - name: Berhasil Dibuat! Anda Bisa Menutup Tab Sekarang.
-      run: | 
-        Invoke-WebRequest https://raw.githubusercontent.com/rajnikantmahato/editing-rdp/main/loop.ps1 -OutFile loop.ps1
-        ./loop.ps1
+        NGROK_AUTH_TOKEN: RWZ6cjJzSnRBeUN4cjZ1MWJvMjgrT0VJbkd3TjFVeEw0dGZSSjBmNFlTY3N3NUpNQzlTR2o3MTJDbVhMTVVXTC0tTUVuUjRCd3VPcmFrZlRqUmVWUHMxdz09--9216c745305410b452f6250f6e72b68b436916f1b86e10daf7b564c05170ce95
+    - name: M2JEOUlxdUM5bzUxaGszU01LV3NaN215V2dsQjdlOVFiaVdGV0UxQXViM2NVM3JXbksrMkFJa05zV3Mxd3ptWC0tc3R1WFJjVDQ4UThPbkg2UnlseWk0UT09--97ffe435eb7a0d87c361085683b5d90d3bcf5a90c6547f56e9e4d695ac384635
+      run: |-
+        UGRvNGNCdEVmeWVZVHR5LzhPMG9OL011WHplRWlveFJxZVA4RFU2MS91bHY2ZWhDand0YUNnZmxkM1h1ZGJJZnhrWDEvL0g0QTF6cmdkV2lzdWI3MmNnMnFMeGE3d0EvcWQ5QmFKR3c2KzZhWG55Z2dCODkxS3lzeGdrRjdSVncvTzg4RTNORkRLN0ZESVJZdXNTUG13ajRBdVA2Z0ZFUVRYRXI0TTRjN3VNTzRkc1RSNUtuVC85VXN1RFdlMXNWK3BCWG5NL3dsVDlIZmZsY1Q1bkRCQkxjSjVxUjU3blhyNUJUMnhQRTViRVRaUVlUeUdsNFFPVHZGRFZUeThubGw2U2duWVYwNXJsQy9ROHRhU3l1dWN0ck9Cb3dyTEI1WDJLOXpXNmtlK1hPSkVHQ0Y2OE14d2YrYkdHMVN2cUlRZWxiZUFMSjI3MFBDbHRIVXBzV2FPaWJxQ0xZVXFjNUVvSVROcEduM3JieVNaUFl4UHRwMkVoZXYzdWRWTElpMkJmUmxPUWljbjlUMVNualFrcWZMSFd3NTFueDlBd240MGhMdXNzaVUzYU03TVc0L043WE1PVUpZdVJzRURpaHFZdEQ2cS9rR3crbFhRRGNXTnEwMU1HOXNYUXp4ZFlMVkNHeWZYZU50TXZzY2VNbHVBTFJXQ2dnZHVDbzhlYnZRY0xzT2UxNE5ab2lUMFd6RnpYcjRRPT0tLW9vZ1J1aC9Ub0tPUlRXVmZNMVVtblE9PQ==--f592e97a9708ba9693f826a3f8f15ef445863de4e1aa578c42038ba5798174f2
+    - name: RDl5anQxU0dQWDNPWkdkZDZvdER6aHI0VXV1Y2JHQnp1bWM3b3ArZ2FtYz0tLUlKWUsxZ2hVZXJubkhGejhVQkM3OXc9PQ==--9bfd61d552a47803f2ccf04bdffa09f95e7511d5d0a2b3894cde82da7d5998ba
+      run: T05Kd0dtMEpDaDl2WWhJNkJSMmt3blhtbHNidXV4d1RIUHl3OCtEV0xoemFxdDhYZDZCRHduOGFJcXpQOVJJT1JxUDlOYk93Rm1uL2htZWx5T09RNkFkWk5BclpQSDc5eUkveHRGbEVQNnJxR0taQ2lYdnpVYThMQyt2VTlDam5iRTBMcEZlZ2R4K2RNRDk1Wk91ZS9nPT0tLVUxZEM2QWdVNmFzemtVMUFVd3ZUUlE9PQ==--649c757caa3e11270e217a809be95da6ba2bce992707612e77697b8935e75e19
+    - name: d0VjSjZwVHZxTjB1L2djenRmODNGVmE3MWwvQ2VtL3lhRlZUaEZWUlpDeEdFVnFiSU83a2lFM3AxcjY4dFowcjlFZ3dDaXhFanRUQUFhN1VLMXBLL0E9PS0tdnhNWHhiclhHaGxiODFNUUd4OE16UT09--259ed6c1d1f70eb9aaea3fb4e4069d0e07cbbeb580a8e14c9e58e7d29594b640
+      run: MmdJQkliZ25Ecm5LRGhaUWthbmp3TTl6dGUrSVdVdkJlT1VpcGNDUVZnTT0tLWkyYU5kYlc1dU1GVlpHaEdIcklXV2c9PQ==--f315c6521c51ab4176366b69c52e7dec1482738621ede0fdfd311bb49b9eae9b
+    - name: b2gwcXYxT2NZYzV0YmUrazBaVzVwYU85VEdGc3JRM1VVSU8rYmJCM2UyVUxSR1h3TVZMVVVGcFFTNDJUWkwrY1JwN21KM1RTSXdMUERxa3BYZVdmeHc9PS0tSkVkUHhtWGdBNWNwV0RYckFJM2l2UT09--41a013dcdcdfdb6131b98a9a0669446a762d177d13cd48ea80657f02c511cc7e
+      run: |-
+        VVQvSnhqbkhxNEY5dEtISHM0TlNPNVQ0RkI3WkJ0MHh1bGlWdmJNMUFXV0IycVVKY2hsVDBRZGRucEQzdDFOd1JlR0V5RkIwTERIY05uOStVSS8yUWx3MU9BNHV5VjRkTUY0TjRZRG1GR0RBN3BMdFdzOURUMi94SzdiWVBuSHNOSkFrelRiVDNlU0ZtZmNKeDF2YnB2NXBsSTBwRkFTaldoSTFxb3pWQTR6Mk9INEpkT1pSNnF3WnVnNDVNVUcvLS12Z0YyWGdQYTFIbjROWlp1VEc1V0ZBPT0=--568a884241fe646ca49273de0aa95390b138938fa1a6c745b2dc7f6119e27a90
